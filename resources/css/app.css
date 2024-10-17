@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chartContainer {
+    width: 100%;
+    max-width: 800px; /* Maximum width for larger screens */
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100% !important; /* Make canvas responsive */
+    height: 400px !important; /* Set a fixed height */
+}
